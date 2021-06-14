@@ -1,0 +1,40 @@
+---
+  swagger: "2.0"
+  info:
+    version: "None"
+    title: "None"
+    description: "None"
+    termsOfService: "None"
+    contact:
+      name: ""
+  host: "https://demo2303660.mockable.io"
+  basePath: "/"
+  schemes:
+    - "https"
+    - "http"
+  consumes:
+    - "application/json"
+  produces:
+    - "application/json"
+  tags:
+    - name: demo2303660
+      description: https://demo2303660.mockable.io
+
+  paths:
+    
+    /:
+      
+      get:
+        description: ""
+        operationId: "GET /"
+        tags:
+          - demo2303660
+        produces:
+          - "text/plain"
+        responses:
+          "200":
+            description: ""
+        
+      
+      
+    
